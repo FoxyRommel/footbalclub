@@ -1,0 +1,9 @@
+.homeView{
+    background-image: url(../assets/Futbol.jpg);
+    height: 300px;
+    width: 100mw;
+}
+.homeAboutViewText{
+    text-align: left;
+    font-size: large;
+}
