@@ -3,14 +3,14 @@
   <div class="wraper-footer">
     <div class="football-school">
       <a href="#">
-        <img src="" alt="football-school">
+        <img src="/svg/footlogo.png" alt="football-school">
       </a>
     </div>
     <div class="year">
       <span>2022</span>
     </div>
     <div class="github">
-      <a href="#">
+      <a href="https://github.com/FoxyRommel/footbalclub.git">
         <img src="/svg/github-logo.svg" alt="github">
       </a>
     </div>
@@ -27,6 +27,7 @@
     width: 100%;
     margin-top: 50px;
     margin-top: auto;
+    background-color: #0033a1
   }
   .wraper-footer {
     display: flex;
@@ -41,4 +42,8 @@
   .github a img {
     width: 45px;
   }
+  .football-school a img {
+    width: 45px;
+  }
+  
 </style>
