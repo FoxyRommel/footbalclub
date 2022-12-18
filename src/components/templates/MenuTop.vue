@@ -6,8 +6,29 @@
         <router-link to="/about">О нас</router-link> |
         <router-link to="/coach">Тренеры</router-link> |
         <router-link to="/contact">Контакты</router-link>
-        
       </nav>
+      <div class="menu-phone">
+        +375256465196
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li>
+            <a href="https://github.com/FoxyRommel/footbalclub.git">
+              <img src="/svg/vkontakte_kpokrqfsqn1o_32.png" alt="github">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/FoxyRommel/footbalclub.git">
+              <img src="/svg/facebook_4zke2svviczk_32.png" alt="github">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/FoxyRommel/footbalclub.git">
+              <img src="/svg/logotip_instagram_vtyznosn9smg_32.png" alt="github">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="enter">
       <button class="btn btn-success" @click="DialogShow">Войти</button>

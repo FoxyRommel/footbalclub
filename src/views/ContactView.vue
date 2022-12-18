@@ -7,11 +7,14 @@
       <p>+375 29 663-09-66</p>
       <p>+375 25 681-84-75</p>
       <p>Emailfcsparta2021@gmail.com</p>
-    </div>
-    <div>
       <textarea class="textareaContact"></textarea>
       <button class="btn btn-success" @click="DialogShow">Написать нам</button>
-    </div>  
+    </div>
+    <div>
+      <div>
+            <img src="/img/children-cup.png" alt="coach">
+      </div>   
+    </div>
   </div>
   <MyDialog class="dialogWindow" v-model:show="DialogVisible">
     <div>
@@ -56,5 +59,7 @@ export default{
   p{
     margin-bottom: 5px;
   }
-
+  img{
+        width: 500px;
+    }
 </style>
