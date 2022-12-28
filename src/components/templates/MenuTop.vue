@@ -30,20 +30,32 @@
         </ul>
       </div>
     </div>
+
+
+
     <div class="enter">
       <button class="btn btn-success" @click="DialogShow">Войти</button>
     </div>
+
+    <MyDialog class="signUpWindow" v-model:show="DialogVisible">
+      <div class="login">
+        <p>Login</p>
+        <FormInput v-model:modelValue="ContactAddr"/>
+     </div>
+        <FormButton nameValue="SingUp" @click="SendData"/>
+    </MyDialog>
+
     <MyDialog class="dialogWindow" v-model:show="DialogVisible">
-    <div class="login">
-      <p>Login</p>
-      <FormInput v-model:modelValue="ContactAddr"/>
-    </div>
-    <div>
-      <p class="password">Password</p>
-      <FormInput v-model:modelValue="ContactAddr1"/>
-    </div>
-      <FormButton nameValue="SingUp" @click="SendData"/>
-  </MyDialog>
+      <div class="login">
+        <p>Login</p>
+        <FormInput v-model:modelValue="ContactAddr"/>
+     </div>
+      <div>
+        <p class="password">Password</p>
+        <FormInput v-model:modelValue="ContactAddr1"/>
+      </div>
+        <FormButton nameValue="SingUp" @click="SendData"/>
+    </MyDialog>
   </div>  
 </template>
   
@@ -71,6 +83,7 @@ export default{
     }
   }
 }
+
 </script>
   
 <style scoped>

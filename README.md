@@ -1,10 +1,21 @@
-# footbalclub
-
+# FootClub
+## FootClub
+- сайт детской футбольной команды
+## Texnologies
+- HTML5
+- CSS
+- JS
+- Vue.js
+- Bootstrap 
+## Installation information
+- git clone
+- cd имя папки
+- npm i 
 ## Project setup
-```
-npm install
-```
-
+- git clone https://github.com/FoxyRommel/footbalclub.git
+- cd romen
+- npn i
+- npm run serve
 ### Compiles and hot-reloads for development
 ```
 npm run serve
